@@ -1,20 +1,9 @@
-//
-// Ejercicio 6
-//
-
-/* Crea un programa con las siguientes características:
-• Crea una variable global y una variable local al main() de tipo entero.
-• Crea dos hilos que reciben como parámetro la variable local del hilo principal.
-• Cada hilo define una nueva variable local y la actualiza con el producto de la variable global
-y el parámetro recibido por el hilo.
-(a) Muestra en pantalla las direcciones de la variable global y las variables locales en el hilo
-principal y, por otro lado, de la variable global, los parámetros recibidos y las variables
-locales definidas en cada uno de los dos hilos creados. Haz también una llamada a malloc
-en los dos hilos.
-(b) Localiza todas estas direcciones en el mapa de direcciones del proceso, e identifica las regiones
-en las que se encuentran.
-(c) Identifica donde están las pilas y los montículos de memoria dinámica de todos los hilos.*/
-
+/*
+Autores:
+    Sergio Nuñez
+        y
+    Santiago Vilas Pampín
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>

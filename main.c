@@ -1,3 +1,9 @@
+/*
+Autores:
+    Sergio Nuñez
+        y
+    Santiago Vilas Pampín
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -7,10 +13,6 @@ int i = 42;
 float pi = 3.14;
 int arr[200000];
 int unused_global;
-
-
-
-
 
 int main() {
     printf("PID: %d\n", getpid());
