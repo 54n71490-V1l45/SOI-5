@@ -1,0 +1,25 @@
+PID: 612278
+Dirección de la función main: 0x582b8b6e01c9
+Matriz p creada
+Dirección base del array p: 0x7fffd8fc4f80
+Pausa para poder mirar el mapa (pulsa enter para seguir)
+
+p[0][0][0]: 0x7fffd8fc4f80
+p[0][0][1]: 0x7fffd8fc4f84
+p[0][0][9]: 0x7fffd8fc4fa4
+p[0][1][0]: 0x7fffd8fc4fa8
+p[1][0][0]: 0x7fffd8fc5110
+p[9][9][9]: 0x7fffd8fc5f1c
+local_c: 0x7fffd8fc4f77
+local_i: 0x7fffd8fc4f78
+local_f: 0x7fffd8fc4f7c
+Pausa para poder mirar el mapa (pulsa enter para seguir)
+
+Variables Globales (DATA/BSS)
+c: 0x582b8b6e3010
+i: 0x582b8b6e3014
+pi: 0x582b8b6e3018
+arr: 0x582b8b6e3040
+arr[último]: 0x582b8b7a653c
+unused_global: 0x582b8b7a6540
+Pausa para poder mirar el mapa (pulsa enter para seguir)

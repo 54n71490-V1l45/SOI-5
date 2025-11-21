@@ -8,64 +8,58 @@ Autores:
 #include <stdlib.h>
 #include <unistd.h>
 
+//Variables globales
+//Inicializadas
 char c = 'A';
 int i = 42;
 float pi = 3.14;
+
+//No inicializadas
 int arr[200000];
 int unused_global;
 
 int main() {
     printf("PID: %d\n", getpid());
+    printf("Dirección de la función main: %p\n", &main); //dirección de la función main
     
+    //Variable local no inicializada
     int p[10][10][10];
     printf("Matriz p creada\n");
-    printf("local_p: %p\n", p);
+    printf("Dirección base del array p: %p\n", p);
 
+    printf("Pausa para poder mirar el mapa (pulsa enter para seguir)\n");
     scanf("%*c"); //Pausa para poder mirar el mapa
 
-    for (int a = 0; a < 10; a++) {
-        for (int b = 0; b < 10; b++) {
-            for (int c = 0; c < 10; c++) {
-                p[a][b][c] = a + b + c;
-                //printf("p[%d][%d][%d] = %d\n", a, b, c, p[a][b][c]); 
-            }
-            printf("%p\n", &p[a][b][c]);
-        }
-    }
+    //Se imprimen algunas direcciones de elementos del array p para observar el orden
+    printf("p[0][0][0]: %p\n", &p[0][0][0]);
+    printf("p[0][0][1]: %p\n", &p[0][0][1]); //Debería ser +4 bytes
+    printf("p[0][0][9]: %p\n", &p[0][0][9]);
+    printf("p[0][1][0]: %p\n", &p[0][1][0]); //El salto de fila
+    printf("p[1][0][0]: %p\n", &p[1][0][0]); //El salto de plano
+    printf("p[9][9][9]: %p\n", &p[9][9][9]); //Último elemento
 
-    printf("local_p inicializada: %p\n", p);
-    scanf("%*c");
+    //Variables locales inicializadas
+    char local_c = '2';
+    int local_i = 84;
+    float local_f = 6.28;
 
-    scanf("%*c"); //Pausa para poder mirar el mapa
-    char local_c;
     printf("local_c: %p\n", &local_c);
-    local_c='2';
-    printf("local_c inicializada: %p\n", &local_c);
-
-    int local_i;
     printf("local_i: %p\n", &local_i);
-    local_i=84;
-    printf("local_i inicializada: %p\n", &local_i);
-
-    float local_f;
-    printf("local_f creado\n");
     printf("local_f: %p\n", &local_f);
-    local_f = 6.28;
-    printf("local_f inicializada: %p\n", &local_f);
 
+    printf("Pausa para poder mirar el mapa (pulsa enter para seguir)\n");
     scanf("%*c"); //Pausa para poder mirar el mapa
 
-
+    printf("Variables Globales (DATA/BSS)\n");
     printf("c: %p\n", &c);
     printf("i: %p\n", &i);
     printf("pi: %p\n", &pi);
     printf("arr: %p\n", arr);
     printf("arr[último]: %p\n", &arr[199999]);
     printf("unused_global: %p\n", &unused_global);
-    
-    printf("unused_global inicializada: %p\n", &unused_global);
 
+    printf("Pausa para poder mirar el mapa (pulsa enter para seguir)\n");
     scanf("%*c");
 
-    return 0;
+    exit(0);
 }
