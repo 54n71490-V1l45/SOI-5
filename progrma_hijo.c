@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    printf("Programa hijo ejecutado\n");
+    scanf("%*c");
+    exit(1);
+}
