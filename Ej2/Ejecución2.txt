@@ -1,0 +1,16 @@
+PID: 239439
+direccion de memoria de main: 0x64228145336d
+direccion de memoria de f1: 0x6422814531e9
+dirección de memoria de a en f1: 0x7ffc5122e95c
+dirección de memoria de c (local) en f1: 0x7ffc5122e964
+Valor de a en f1: 1
+Valor de c en f1: 3
+direccion de memoria de f2: 0x6422814532ab
+dirección de memoria de b en f2: 0x7ffc5122e95c
+dirección de memoria de d (local) en f2: 0x7ffc5122e964
+Valor de b en f2: 2
+Valor de d en f2: 4
+dirección de memoria de a en main: 0x7ffc5122e980
+dirección de memoria de b en main: 0x7ffc5122e984
+Pausa para poder mirar el mapa (pulsa enter para seguir)
+

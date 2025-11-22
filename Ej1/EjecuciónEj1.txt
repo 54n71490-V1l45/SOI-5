@@ -23,3 +23,4 @@ arr: 0x582b8b6e3040
 arr[último]: 0x582b8b7a653c
 unused_global: 0x582b8b7a6540
 Pausa para poder mirar el mapa (pulsa enter para seguir)
+
