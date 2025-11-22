@@ -1,0 +1,27 @@
+PID: 841085
+
+Direccion de memoria del bloque reservado con malloc (pequeño): 0x622f2ccf7ac0
+Última direccion de memoria del bloque reservado con malloc: 0x622f2ccf7c4c
+
+Direccion de memoria del bloque reservado con malloc (mediano): 0x622f2ccf7c60
+Última direccion de memoria del bloque reservado con malloc: 0x622f2ccf8bfc
+
+
+Direccion de memoria del bloque reservado con alloca: 0x7ffc427dafe0
+Última Direccion de memoria del bloque reservado con alloca: 0x7ffc427ee85c
+
+Direccion de memoria del bloque reservado con malloc (antes realloc): 0x622f2ccf7c60
+Última direccion de memoria del bloque reservado con malloc: 0x622f2cd0b4dc
+
+Direccion de memoria del bloque reservado con realloc: 0x72e3f75d8010
+Última direccion de memoria del bloque reservado con realloc: 0x72e3f75ff10c
+
+    
+Tamaño del puntero de malloc para double: 8 bytes
+Direccion de memoria del bloque reservado con malloc: 0x622f2ccf7c60
+Última Direccion de memoria del bloque reservado con malloc: 0x622f2ccf8bfc
+
+Intentando liberar una dirección incorrecta (b + 1)...
+free(): invalid pointer
+[1]    841085 IOT instruction (core dumped)  ./main3
+

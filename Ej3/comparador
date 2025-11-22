@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+archivos=(maps1_3.txt maps2_3 maps3_3 maps4_3 maps5_3 maps6_3 maps7_3 maps8_3 maps9_3 maps10_3)
+
+# 1) Calcular checksum de cada archivo y agrupar por checksum
+declare -A checksum_to_rep   # checksum -> archivo representante
+declare -A file_group        # archivo -> archivo representante del grupo
+
+for f in "${archivos[@]}"; do
+    cksum=$(md5sum "$f" | awk '{print $1}')
+    if [[ -z "${checksum_to_rep[$cksum]}" ]]; then
+        checksum_to_rep[$cksum]="$f"      # primer archivo con ese checksum
+    fi
+    file_group[$f]="${checksum_to_rep[$cksum]}"
+done
+
+# 2) Construir lista de representantes únicos
+reps=()
+for f in "${archivos[@]}"; do
+    rep="${file_group[$f]}"
+    # añadir solo una vez cada representante
+    anadido=0
+    for r in "${reps[@]}"; do
+        [[ "$r" == "$rep" ]] && anadido=1 && break
+    done
+    [[ $anadido -eq 0 ]] && reps+=("$rep")
+done
+
+# 3) Mostrar grupos de archivos idénticos
+echo "Grupos de archivos idénticos:"
+for rep in "${reps[@]}"; do
+    echo "- Grupo con representante: $rep"
+    for f in "${archivos[@]}"; do
+        [[ "${file_group[$f]}" == "$rep" ]] && echo "    $f"
+    done
+done
+echo
+
+# 4) Comparar solo representantes entre sí
+echo "Comparando solo representantes distintos:"
+for ((i=0; i<${#reps[@]}; i++)); do
+  for ((j=i+1; j<${#reps[@]}; j++)); do
+    echo "Comparando ${reps[i]} y ${reps[j]}:"
+    diff "${reps[i]}" "${reps[j]}"
+    echo "---------------------"
+  done
+done
