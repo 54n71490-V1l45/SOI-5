@@ -56,7 +56,7 @@ int main(){
         exit(1);
     }
     
-    printf("Direccion de memoria del bloque reservado con malloc (antes realloc): %p\n", f);
+    printf("Direccion de memoria del bloque reservado con malloc (antes del realloc): %p\n", f);
     printf("Última direccion de memoria del bloque reservado con malloc: %p\n", &f[19999]);
     scanf("%*c");
 
