@@ -75,7 +75,7 @@ int main(){
     scanf("%*c");
 
     //6. PRUEBA DESTRUCTIVA (BAD FREE)
-    int *b = malloc(1000 * sizeof(double));
+    double *b = malloc(1000 * sizeof(double));
     if(!b){
         printf("Error en la reserva de memoria\n");
         exit(1);
