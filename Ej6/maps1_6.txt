@@ -1,8 +1,8 @@
-555838574000-555838575000 r--p 00000000 103:06 306839                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main6
-555838575000-555838576000 r-xp 00001000 103:06 306839                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main6
-555838576000-555838577000 r--p 00002000 103:06 306839                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main6
-555838577000-555838578000 r--p 00002000 103:06 306839                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main6
-555838578000-555838579000 rw-p 00003000 103:06 306839                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main6
+555838574000-555838575000 r--p 00000000 103:06 306839                    /home/san/main6
+555838575000-555838576000 r-xp 00001000 103:06 306839                    /home/san/main6
+555838576000-555838577000 r--p 00002000 103:06 306839                    /home/san/main6
+555838577000-555838578000 r--p 00002000 103:06 306839                    /home/san/main6
+555838578000-555838579000 rw-p 00003000 103:06 306839                    /home/san/main6
 55585d992000-55585d9b3000 rw-p 00000000 00:00 0                          [heap]
 70b91ce00000-70b91ce28000 r--p 00000000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
 70b91ce28000-70b91cfb0000 r-xp 00028000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Archivos a excluir de la comparación (agrega aquí los nombres de archivos que no quieres comparar)
-excluded=("comparador Ejecución4.txt")  # Por ejemplo, excluir el propio script
+excluded=("comparador Ejecución6.txt")  # Por ejemplo, excluir el propio script
 
 # Obtener todos los archivos en el directorio actual, excluyendo los especificados
 archivos=()
