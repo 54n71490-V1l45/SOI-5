@@ -12,6 +12,7 @@ Autores:
 /*
 Usado para la compilación estática:
 gcc -Wall -o main5static main5.c -static -lm
+
 Usado para la compilación dinámica:
 gcc -Wall -o main5 main5.c -lm
 */

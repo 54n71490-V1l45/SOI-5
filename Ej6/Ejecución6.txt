@@ -1,0 +1,17 @@
+PID: 478758
+Dirección de la variable global en el hilo principal: 0x555838578010
+Dirección de la variable local en el hilo principal: 0x7ffd5d5cd0fc
+
+Hilo 0 - Dirección de la variable global en el hilo: 0x555838578010
+Hilo 0 - Dirección del parámetro recibido en el hilo: 0x7ffd5d5cd108
+Hilo 0 - Dirección de la variable local en el hilo: 0x70b91cdfeea8
+Hilo 1 - Dirección de la variable global en el hilo: 0x555838578010
+Hilo 1 - Dirección del parámetro recibido en el hilo: 0x7ffd5d5cd10c
+Hilo 1 - Dirección de la variable local en el hilo: 0x70b91c5fdea8
+Dirección de la memoria dinámica asignada en el hilo: 0x70b914000b70
+Dirección de la memoria dinámica asignada en el hilo: 0x70b90c000b70
+Hilo 0 - Esperando a que el usuario pulse ENTER en el main...
+Hilo 1 - Esperando a que el usuario pulse ENTER en el main...
+
+Todos los hilos han terminado. ENTER para fin del programa.
+

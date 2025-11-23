@@ -1,3 +1,4 @@
 PID: 262693
 Operación con math.h (sin + pow) sobre 1.00 = 1.841471
 Pulsa ENTER para terminar...
+
