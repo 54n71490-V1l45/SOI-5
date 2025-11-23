@@ -19,6 +19,7 @@ gcc -Wall -o main6 main6.c -lpthread
 int var_global = 10; //Variable global
 int seguir_ejecutando = 1; //Variable para controlar la ejecución de los hilos
 
+// Función que ejecuta cada hilo
 void* funcion_hilo(void* arg) {
     int var_local_hilo; //Variable local al hilo
     int id_hilo = *((int*)arg);
@@ -50,6 +51,7 @@ void* funcion_hilo(void* arg) {
 }
 
 
+// Función principal que crea y gestiona los hilos
 int main() {
     printf("PID: %d\n", getpid());
     pthread_t hilos[NUM_HILOS];
@@ -60,6 +62,7 @@ int main() {
     printf("Dirección de la variable local en el hilo principal: %p\n", &var_local_main);
     scanf("%*c");
 
+    // Crear hilos
     for (int i = 0; i < NUM_HILOS; i++) {
         ids[i] = var_local_main + i; //Les damos un ID: 1 y 2
         //Pasamos la dirección de ids[i] para que sea seguro

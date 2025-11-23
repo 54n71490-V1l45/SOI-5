@@ -8,6 +8,7 @@ Autores:
 #include <stdlib.h>
 #include <unistd.h>
 
+//Función que imprime direcciones y valores de variables locales y parámetros
 void f1(int a){
     int c=3;
     printf("direccion de memoria de f1: %p\n", f1);
@@ -18,6 +19,7 @@ void f1(int a){
     return;
 }
 
+//Función que imprime direcciones y valores de variables locales y parámetros
 void f2(int b){
     int d=4;
     printf("direccion de memoria de f2: %p\n", f2);
