@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
-archivos=(maps1_3.txt maps2_3 maps3_3 maps4_3 maps5_3 maps6_3 maps7_3.txt maps8_3 maps9_3 maps10_3.txt)
+
+# Archivos a excluir de la comparación (agrega aquí los nombres de archivos que no quieres comparar)
+excluded=("comparador Ejecución4.txt")  # Por ejemplo, excluir el propio script
+
+# Obtener todos los archivos en el directorio actual, excluyendo los especificados
+archivos=()
+for f in *; do
+    if [[ -f "$f" && ! " ${excluded[@]} " =~ " $f " ]]; then
+        archivos+=("$f")
+    fi
+done
 
 # 1) Calcular checksum de cada archivo y agrupar por checksum
 declare -A checksum_to_rep   # checksum -> archivo representante

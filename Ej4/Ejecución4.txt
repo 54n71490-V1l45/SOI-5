@@ -1,0 +1,12 @@
+Proceso padre (PID: 167815) antes del fork
+
+(PADRE) Esperando a que el hijo termine...
+Proceso hijo (PID: 168524) antes del malloc
+
+malloc:0x633c34341ac0
+
+Programa hijo ejecutando
+Mi PID sigue siendo: 168524 (mismo que antes)
+Pulsa ENTER para terminar el hijo...
+
+

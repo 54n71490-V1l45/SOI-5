@@ -41,5 +41,6 @@ int main(){
         printf("(PADRE) Esperando a que el hijo termine...\n");
         wait(NULL);
         scanf("%*c"); //Pausa final para ver el mapa del padre
+    }
     exit(0);
 }
