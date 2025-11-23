@@ -1,6 +1,6 @@
 /*
 Autores:
-    Sergio Nuñez
+    Sergio Núñez
         y
     Santiago Vilas Pampín
 */
