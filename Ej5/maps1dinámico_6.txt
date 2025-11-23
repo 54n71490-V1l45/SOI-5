@@ -1,0 +1,30 @@
+5a9861133000-5a9861134000 r--p 00000000 103:06 306129                    /home/san/main5
+5a9861134000-5a9861135000 r-xp 00001000 103:06 306129                    /home/san/main5
+5a9861135000-5a9861136000 r--p 00002000 103:06 306129                    /home/san/main5
+5a9861136000-5a9861137000 r--p 00002000 103:06 306129                    /home/san/main5
+5a9861137000-5a9861138000 rw-p 00003000 103:06 306129                    /home/san/main5
+5a9886e0e000-5a9886e2f000 rw-p 00000000 00:00 0                          [heap]
+7adaff800000-7adaff828000 r--p 00000000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7adaff828000-7adaff9b0000 r-xp 00028000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7adaff9b0000-7adaff9ff000 r--p 001b0000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7adaff9ff000-7adaffa03000 r--p 001fe000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7adaffa03000-7adaffa05000 rw-p 00202000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
+7adaffa05000-7adaffa12000 rw-p 00000000 00:00 0 
+7adaffbaf000-7adaffbb2000 rw-p 00000000 00:00 0 
+7adaffbb2000-7adaffbc2000 r--p 00000000 103:06 5542911                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7adaffbc2000-7adaffc41000 r-xp 00010000 103:06 5542911                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7adaffc41000-7adaffc99000 r--p 0008f000 103:06 5542911                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7adaffc99000-7adaffc9a000 r--p 000e7000 103:06 5542911                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7adaffc9a000-7adaffc9b000 rw-p 000e8000 103:06 5542911                   /usr/lib/x86_64-linux-gnu/libm.so.6
+7adaffcb3000-7adaffcb5000 rw-p 00000000 00:00 0 
+7adaffcb5000-7adaffcb7000 r--p 00000000 00:00 0                          [vvar]
+7adaffcb7000-7adaffcb9000 r--p 00000000 00:00 0                          [vvar_vclock]
+7adaffcb9000-7adaffcbb000 r-xp 00000000 00:00 0                          [vdso]
+7adaffcbb000-7adaffcbc000 r--p 00000000 103:06 5542905                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7adaffcbc000-7adaffce7000 r-xp 00001000 103:06 5542905                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7adaffce7000-7adaffcf1000 r--p 0002c000 103:06 5542905                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7adaffcf1000-7adaffcf3000 r--p 00036000 103:06 5542905                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7adaffcf3000-7adaffcf5000 rw-p 00038000 103:06 5542905                   /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffdf5196000-7ffdf51b7000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
