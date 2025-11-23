@@ -1,8 +1,8 @@
-622f07e57000-622f07e58000 r--p 00000000 103:06 306202                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main3
-622f07e58000-622f07e59000 r-xp 00001000 103:06 306202                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main3
-622f07e59000-622f07e5a000 r--p 00002000 103:06 306202                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main3
-622f07e5a000-622f07e5b000 r--p 00002000 103:06 306202                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main3
-622f07e5b000-622f07e5c000 rw-p 00003000 103:06 306202                    /home/san/OneDrive/Documentos/Santiago/2ºUniversidad/OS_I/Prácticas/Práctica5/P5/SOI-5/main3
+622f07e57000-622f07e58000 r--p 00000000 103:06 306202                    /home/san/main3
+622f07e58000-622f07e59000 r-xp 00001000 103:06 306202                    /home/san/main3
+622f07e59000-622f07e5a000 r--p 00002000 103:06 306202                    /home/san/main3
+622f07e5a000-622f07e5b000 r--p 00002000 103:06 306202                    /home/san/main3
+622f07e5b000-622f07e5c000 rw-p 00003000 103:06 306202                    /home/san/main3
 622f2ccf7000-622f2cd18000 rw-p 00000000 00:00 0                          [heap]
 72e3f7600000-72e3f7628000 r--p 00000000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
 72e3f7628000-72e3f77b0000 r-xp 00028000 103:06 5542908                   /usr/lib/x86_64-linux-gnu/libc.so.6
